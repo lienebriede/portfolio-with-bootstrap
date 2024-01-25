@@ -22,9 +22,6 @@
     background-color: rgb(244, 125, 206);
 }
 
-
-
-
 /*--------------------------------------------------Heading */
 
 header {
@@ -48,14 +45,14 @@ header {
     text-transform: uppercase;
     color: white;
     font-size: 46px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .title {
     font-family: "Rubik Maps", system-ui;
     color: white;
     font-size: 28px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     margin-top: 20px;
 }
 
@@ -65,6 +62,7 @@ header {
 
 .menu-container {
     font-size: 0;
+    margin: 0;
 }
 
 #nav li {
@@ -82,22 +80,21 @@ header {
 .menu-item a {
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #fff;
     height: 120px;
 }
 
-.menu-item a i {
-    display: block;
-    margin-top: 10px;
-    font-size: 20px;
-    color: #fafafa;
+.menu-item span {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
 }
 
-.menu-item span {
-    display: block;
-    padding-top: 20px;
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
+/*--------------------------------------------------Heading */
+
+.hvr-sweep-to-bottom:before {
+    height: 120px;
+    background: rgba(0, 0, 0, 0.2);
 }
