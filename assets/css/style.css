@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Rubik+Maps&display=swap|Poppins:100,200,300,400,500,600,700');
+
+
+/*--------------------------------------------------Colors */
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.menu-color-1 {
+    background-color: rgb(10, 199, 136);
+}
+
+.menu-color-2 {
+    background-color: rgb(51, 218, 247);
+}
+
+.menu-color-3 {
+    background-color: rgb(243, 212, 57);
+}
+
+.menu-color-4 {
+    background-color: rgb(244, 125, 206);
+}
+
+
+
+
+/*--------------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/1033.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.name {
+    font-family: "Rubik Maps", system-ui;
+    text-transform: uppercase;
+    color: white;
+    font-size: 46px;
+    margin-top: 40px;
+}
+
+.title {
+    font-family: "Rubik Maps", system-ui;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menu-container {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+/*This makes the whole area clickable not only the a text, and removes the line with text-decor*/
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menu-item a i {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.menu-item span {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
